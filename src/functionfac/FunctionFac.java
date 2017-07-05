@@ -5,18 +5,18 @@
  */
 package functionfac;
 
-/**
- *
- * @author stefan
- */
+
+import java.util.Scanner;
+
+
 public class FunctionFac {
 
     public static void main(String[] args) {
         /**
          * Fakultät berechnen
          */
-
-        int a = 11;
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
         int erg = 1;
 
         for (int i = 0; i < a; i++) {
